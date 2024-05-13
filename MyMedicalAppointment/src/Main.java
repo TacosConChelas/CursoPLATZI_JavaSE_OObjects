@@ -4,8 +4,8 @@ public class Main {
         public static void main(String[] args){
                 //showMenu();
                 Doctor myDoctor = new Doctor("Andres", "Cirujano");
-                System.out.println(myDoctor.name);
-                System.out.println(myDoctor.speciality);
+                System.out.println(myDoctor.getName());
+                System.out.println(myDoctor.getSpeciality());
 
                 Patient patient01 = new Patient("Adriel Hernandez", "adrielh@gmail.com");
                 Patient patient02 = new Patient("alberto Fernandez", "alfer@gmail.com");
@@ -16,6 +16,8 @@ public class Main {
 
                 System.out.println(patient01.getName());
                 System.out.println(patient02.getName());
+
+                
 
                 /*patient01.setWeight(56.6);
                 System.out.println(patient01.getWeight());
